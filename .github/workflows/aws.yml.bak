@@ -32,8 +32,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: lab3_test
-          environment_name: Lab3test-env
+          application_name: docker-test
+          environment_name: dockertest-env
           existing_bucket_name: elasticbeanstalk-us-east-1-055338574290
           version_label: "docker-app-${{ steps.format-time.outputs.replaced }}"
           region: us-east-1
