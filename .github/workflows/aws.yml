@@ -36,5 +36,5 @@ jobs:
           environment_name: dockertest-env
           existing_bucket_name: elasticbeanstalk-us-east-1-055338574290
           version_label: "docker-app-${{ steps.format-time.outputs.replaced }}"
-          region: us-east-2
+          region: us-east-1
           deployment_package: deploy.zip
