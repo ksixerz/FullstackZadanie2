@@ -1,3 +1,8 @@
+# Fullstack zadanie 2
+url do aplikacji na AWS
+http://lab3test-env.eba-pnhc3ziv.us-east-1.elasticbeanstalk.com/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
